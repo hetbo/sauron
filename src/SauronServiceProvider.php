@@ -2,9 +2,9 @@
 
 namespace Hetbo\Sauron;
 
+use Hetbo\Sauron\Commands\SauronCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Hetbo\Sauron\Commands\SauronCommand;
 
 class SauronServiceProvider extends PackageServiceProvider
 {

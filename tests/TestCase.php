@@ -2,9 +2,9 @@
 
 namespace Hetbo\Sauron\Tests;
 
+use Hetbo\Sauron\SauronServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Hetbo\Sauron\SauronServiceProvider;
 
 class TestCase extends Orchestra
 {
